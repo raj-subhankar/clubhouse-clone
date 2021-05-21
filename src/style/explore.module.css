@@ -62,7 +62,7 @@
   margin: 0;
   display: block;
   display: -webkit-box;
-  width: 172px;
+  width: 173px;
   height: fit-content;
   line-height: 1.15;
   -webkit-line-clamp: 2;
@@ -116,4 +116,12 @@
   background-color: #f2f0e4;
   z-index: 5;
   padding: 0.5em;
+}
+
+.head img {
+  width: 15px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 }
